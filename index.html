@@ -9,38 +9,43 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
-<div class="container">
+    <div class="bg">
     <div class="row">
-        <div class="col-12 text-center mx-auto mt-5">
-            <h3 class="encadrerTitre">Gestion aléatoire des définitions de couture</h3>
+        <div class="col-5 text-center mx-auto mt-5">
+            <h3 class="encadrerTitre">Affichage aléatoire des définitions de couture</h3>
         </div>
     </div>
-</div>
 
-<div class="container">
+
+
     <div class="row">
-        <div class="col-10 text-center mx-auto mt-5 encadrerSousTitre">
-            <h3>Cliquer sur le bouton générer pour afficher une nouvelle définition</h3>
+        <div class="col-11 text-center mx-auto mt-5">
+            <h3 class="encadrerSousTitre">Cliquer sur "Générer" pour afficher une nouvelle définition</h3>
         </div>
     </div>
-</div>
 
-<div class="container">
+
+
     <div class="row">
-        <div class="col-5 text-center mx-auto mt-5 encadrerBlocGauche">
+        <div class="col-2"></div>
+    
+    
+        <div class="col-4 text-center mx-auto mt-5 encadrerBlocGauche">
             <h3><img class="tailleImage" src="assets/img/machine-a-coudre-classique-avec-bobine-de-fil.png" alt="image de machine à coudre">Le saviez-vous?</h3>
             <br>
             <p id="calque_definition"></p>
         </div>
-        <div class="col-5 text-center mx-auto mt-5 bouton">
+        <div class="col-1"></div>
+        <div class="col-3 text-center mx-auto mt-5 bouton">
             <button type="button" class="btn btn-warning btn-lg" onClick="genere_definitions()">Générer</button>
         </div>
+        <div class="col-2"></div>
     </div>
-</div>
 
-<div class="container">
+
+
     <div class="row">
-        <div class="col-12 text-center mx-auto mt-5">
+        <div class="col-11 text-center mx-auto mt-5">
             <h3 class="encadrerFooter" id="apercu"></h3>
         </div>
     </div>

@@ -1,37 +1,45 @@
 
-body{
-    background-color: grey !important;
+body, html{
+    height: 100%;
+    margin:0;
 }
 
-.encadrerTitre{ 
-    border: 2px solid black; 
+.bg {
+    background-image: url("../img/fond_ecran1.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.encadrerTitre, .encadrerSousTitre { 
+    
     border-radius: 10px;
-    background-color: #FFF;
+    background-color: rgb(249, 228, 183);
     font-size: larger;
     padding-bottom: 10px;
     padding-top: 10px;
+    opacity: 70%;
 } 
 
-.encadrerSousTitre{ 
-    border: 2px solid black; padding: 5px; 
-    border-radius: 10px;
-    background-color: #FFF;
-} 
+
 
 .encadrerBlocGauche{ 
-    border: 2px solid black; padding: 5px; 
     border-radius: 10px;
-    background-color: #FFF;
+    background-color: rgb(249, 228, 183);
     font-size: medium;
     width: 350px;
-    height: 350px;
+    height: 500px;
     padding-top: 30px;
+    margin-left: 0px;
+    opacity: 70%;
 } 
 
 .bouton{
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 70%;
 }
 
 .tailleImage{
@@ -41,9 +49,9 @@ body{
 }
 
 .encadrerFooter{
-    border: 2px solid black; 
+    opacity: 70%;
     border-radius: 10px;
-    background-color: #FFF;
+    background-color: rgb(249, 228, 183);
     font-size: larger;
     padding-bottom: 20px;
     padding-top: 20px;
