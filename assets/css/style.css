@@ -1,0 +1,50 @@
+
+body{
+    background-color: grey !important;
+}
+
+.encadrerTitre{ 
+    border: 2px solid black; 
+    border-radius: 10px;
+    background-color: #FFF;
+    font-size: larger;
+    padding-bottom: 10px;
+    padding-top: 10px;
+} 
+
+.encadrerSousTitre{ 
+    border: 2px solid black; padding: 5px; 
+    border-radius: 10px;
+    background-color: #FFF;
+} 
+
+.encadrerBlocGauche{ 
+    border: 2px solid black; padding: 5px; 
+    border-radius: 10px;
+    background-color: #FFF;
+    font-size: medium;
+    width: 350px;
+    height: 350px;
+    padding-top: 30px;
+} 
+
+.bouton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tailleImage{
+    width: 30%;
+    height: 30%;
+    padding-right: 50px;
+}
+
+.encadrerFooter{
+    border: 2px solid black; 
+    border-radius: 10px;
+    background-color: #FFF;
+    font-size: larger;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
